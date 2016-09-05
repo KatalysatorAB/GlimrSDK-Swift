@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325426B01D7D8CDC003CA31D /* KatalysatorSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426AF1D7D8CDC003CA31D /* KatalysatorSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		325426B21D7D902A003CA31D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426B11D7D902A003CA31D /* SystemConfiguration.framework */; };
+		325426B41D7D9032003CA31D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426B31D7D9032003CA31D /* CoreBluetooth.framework */; };
+		325426B61D7D9047003CA31D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426B51D7D9047003CA31D /* CoreTelephony.framework */; };
+		325426B81D7D904D003CA31D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426B71D7D904D003CA31D /* MediaPlayer.framework */; };
+		325426BA1D7D9053003CA31D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426B91D7D9053003CA31D /* AdSupport.framework */; };
+		325426BC1D7D9059003CA31D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426BB1D7D9059003CA31D /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		325426BE1D7D905E003CA31D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426BD1D7D905E003CA31D /* CoreGraphics.framework */; };
+		325426C31D7D9613003CA31D /* Landvetter.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 325426C11D7D9613003CA31D /* Landvetter.gpx */; };
+		325426C41D7D9613003CA31D /* Arlanda.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 325426C21D7D9613003CA31D /* Arlanda.gpx */; };
 		32F99F4B1D7D6F1A00E3A51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F99F4A1D7D6F1A00E3A51C /* AppDelegate.swift */; };
-		32F99F4D1D7D6F1A00E3A51C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F99F4C1D7D6F1A00E3A51C /* ViewController.swift */; };
 		32F99F501D7D6F1A00E3A51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F99F4E1D7D6F1A00E3A51C /* Main.storyboard */; };
 		32F99F521D7D6F1A00E3A51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F99F511D7D6F1A00E3A51C /* Assets.xcassets */; };
-		32F99F551D7D6F1A00E3A51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F99F531D7D6F1A00E3A51C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		325426AF1D7D8CDC003CA31D /* KatalysatorSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KatalysatorSDK.framework; sourceTree = "<group>"; };
+		325426B11D7D902A003CA31D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		325426B31D7D9032003CA31D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		325426B51D7D9047003CA31D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		325426B71D7D904D003CA31D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		325426B91D7D9053003CA31D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		325426BB1D7D9059003CA31D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		325426BD1D7D905E003CA31D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		325426C11D7D9613003CA31D /* Landvetter.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Landvetter.gpx; sourceTree = "<group>"; };
+		325426C21D7D9613003CA31D /* Arlanda.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Arlanda.gpx; sourceTree = "<group>"; };
 		32F99F471D7D6F1A00E3A51C /* SampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F99F4A1D7D6F1A00E3A51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32F99F4C1D7D6F1A00E3A51C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32F99F4F1D7D6F1A00E3A51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32F99F511D7D6F1A00E3A51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32F99F541D7D6F1A00E3A51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F99F561D7D6F1A00E3A51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -29,6 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325426BE1D7D905E003CA31D /* CoreGraphics.framework in Frameworks */,
+				325426BC1D7D9059003CA31D /* CoreLocation.framework in Frameworks */,
+				325426B01D7D8CDC003CA31D /* KatalysatorSDK.framework in Frameworks */,
+				325426BA1D7D9053003CA31D /* AdSupport.framework in Frameworks */,
+				325426B81D7D904D003CA31D /* MediaPlayer.framework in Frameworks */,
+				325426B61D7D9047003CA31D /* CoreTelephony.framework in Frameworks */,
+				325426B41D7D9032003CA31D /* CoreBluetooth.framework in Frameworks */,
+				325426B21D7D902A003CA31D /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,7 @@
 			children = (
 				32F99F491D7D6F1A00E3A51C /* SampleSwift */,
 				32F99F481D7D6F1A00E3A51C /* Products */,
+				32F99F601D7D717300E3A51C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +80,28 @@
 			isa = PBXGroup;
 			children = (
 				32F99F4A1D7D6F1A00E3A51C /* AppDelegate.swift */,
-				32F99F4C1D7D6F1A00E3A51C /* ViewController.swift */,
 				32F99F4E1D7D6F1A00E3A51C /* Main.storyboard */,
 				32F99F511D7D6F1A00E3A51C /* Assets.xcassets */,
-				32F99F531D7D6F1A00E3A51C /* LaunchScreen.storyboard */,
 				32F99F561D7D6F1A00E3A51C /* Info.plist */,
+				325426C11D7D9613003CA31D /* Landvetter.gpx */,
+				325426C21D7D9613003CA31D /* Arlanda.gpx */,
 			);
 			path = SampleSwift;
+			sourceTree = "<group>";
+		};
+		32F99F601D7D717300E3A51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				325426BD1D7D905E003CA31D /* CoreGraphics.framework */,
+				325426BB1D7D9059003CA31D /* CoreLocation.framework */,
+				325426B91D7D9053003CA31D /* AdSupport.framework */,
+				325426B71D7D904D003CA31D /* MediaPlayer.framework */,
+				325426B51D7D9047003CA31D /* CoreTelephony.framework */,
+				325426B31D7D9032003CA31D /* CoreBluetooth.framework */,
+				325426B11D7D902A003CA31D /* SystemConfiguration.framework */,
+				325426AF1D7D8CDC003CA31D /* KatalysatorSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F99F551D7D6F1A00E3A51C /* LaunchScreen.storyboard in Resources */,
+				325426C41D7D9613003CA31D /* Arlanda.gpx in Resources */,
+				325426C31D7D9613003CA31D /* Landvetter.gpx in Resources */,
 				32F99F521D7D6F1A00E3A51C /* Assets.xcassets in Resources */,
 				32F99F501D7D6F1A00E3A51C /* Main.storyboard in Resources */,
 			);
@@ -137,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F99F4D1D7D6F1A00E3A51C /* ViewController.swift in Sources */,
 				32F99F4B1D7D6F1A00E3A51C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +191,6 @@
 				32F99F4F1D7D6F1A00E3A51C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		32F99F531D7D6F1A00E3A51C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32F99F541D7D6F1A00E3A51C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,9 +292,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P458BMU67;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleSwift",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = se.glimr.swift.SampleSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = se.glimr.retarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -273,9 +310,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P458BMU67;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleSwift",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = se.glimr.swift.SampleSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = se.glimr.retarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +342,7 @@
 				32F99F5B1D7D6F1A00E3A51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
