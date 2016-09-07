@@ -27,6 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let glimrManager = KATBeaconManager(configuration: config)!
         glimrManager.startCollecting()
         
+        glimrManager.trigger { (result) in
+            print("TRIGGER", result)
+        }
+        
         glimrManager.debug(handler: { (result) in
             print("DEBUG", result)
         })
