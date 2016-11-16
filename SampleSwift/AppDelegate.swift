@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         
         // RECEIVE TAGS
-        let audienceManager = KATAudienceManager(apiToken: AppDelegate.GLIMR_API_TOKEN)
+        let audienceManager = KATAudienceManager(apiToken: AppDelegate.GLIMR_API_TOKEN!)
         audienceManager?.audiences(completion: { (audiences, error) in
             print("AUDIENCES \(audiences)")
         })
