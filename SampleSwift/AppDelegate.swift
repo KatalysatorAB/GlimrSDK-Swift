@@ -43,8 +43,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // RECEIVE TAGS
         let audienceManager = KATAudienceManager(apiToken: AppDelegate.GLIMR_API_TOKEN!)
+        
+        print("Cached tags \(audienceManager?.cachedTags(.flat))")
+        
         audienceManager?.audiences(completion: { (audiences, error) in
-            print("AUDIENCES \(audiences)")
+            print("Tags \(audiences)")
         })
     }
 

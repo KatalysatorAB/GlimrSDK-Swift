@@ -17,6 +17,7 @@
 		325426BE1D7D905E003CA31D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325426BD1D7D905E003CA31D /* CoreGraphics.framework */; };
 		325426C31D7D9613003CA31D /* Landvetter.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 325426C11D7D9613003CA31D /* Landvetter.gpx */; };
 		325426C41D7D9613003CA31D /* Arlanda.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 325426C21D7D9613003CA31D /* Arlanda.gpx */; };
+		32D8E9DC1E09564200BD0F65 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D8E9DB1E09564200BD0F65 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		32F99F4B1D7D6F1A00E3A51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F99F4A1D7D6F1A00E3A51C /* AppDelegate.swift */; };
 		32F99F501D7D6F1A00E3A51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F99F4E1D7D6F1A00E3A51C /* Main.storyboard */; };
 		32F99F521D7D6F1A00E3A51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F99F511D7D6F1A00E3A51C /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		325426BD1D7D905E003CA31D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		325426C11D7D9613003CA31D /* Landvetter.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Landvetter.gpx; sourceTree = "<group>"; };
 		325426C21D7D9613003CA31D /* Arlanda.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Arlanda.gpx; sourceTree = "<group>"; };
+		32D8E9DB1E09564200BD0F65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		32F99F471D7D6F1A00E3A51C /* SampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F99F4A1D7D6F1A00E3A51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32F99F4F1D7D6F1A00E3A51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D8E9DC1E09564200BD0F65 /* AVFoundation.framework in Frameworks */,
 				325426BE1D7D905E003CA31D /* CoreGraphics.framework in Frameworks */,
 				325426BC1D7D9059003CA31D /* CoreLocation.framework in Frameworks */,
 				325426B01D7D8CDC003CA31D /* KatalysatorSDK.framework in Frameworks */,
@@ -92,6 +95,7 @@
 		32F99F601D7D717300E3A51C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32D8E9DB1E09564200BD0F65 /* AVFoundation.framework */,
 				325426BD1D7D905E003CA31D /* CoreGraphics.framework */,
 				325426BB1D7D9059003CA31D /* CoreLocation.framework */,
 				325426B91D7D9053003CA31D /* AdSupport.framework */,
